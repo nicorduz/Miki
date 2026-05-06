@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>For When You Need a Little Warmth</title>
+  <meta name="description" content="A private bilingual memory and mood app." />
+  <meta property="og:title" content="For When You Need a Little Warmth" />
+  <meta property="og:description" content="A private bilingual memory and mood app." />
+  <meta property="og:image" content="assets/og-card.svg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" data-i18n="eyebrow">A quiet place for small memories</p>
+        <h1 data-i18n="title">For when today feels like a lot</h1>
+      </div>
+
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button class="lang-btn active" data-lang="en" type="button">EN</button>
+        <button class="lang-btn" data-lang="ja" type="button">日本語</button>
+      </div>
+    </header>
+
+    <section class="hero-card">
+      <div class="hero-copy">
+        <p class="soft-label" data-i18n="introLabel">Start here</p>
+        <h2 data-i18n="introTitle">How are you feeling right now?</h2>
+        <p data-i18n="introText">
+          Pick a mood. The app will show one random memory and a few gentle options, only if any of them feel right.
+        </p>
+      </div>
+      <div class="tiny-note" data-i18n="privacyNote">
+        Nothing is saved, tracked, or sent automatically.
+      </div>
+    </section>
+
+    <section class="mood-section" aria-labelledby="mood-title">
+      <div class="section-heading">
+        <h2 id="mood-title" data-i18n="moodTitle">Choose a mood</h2>
+        <button class="ghost-btn" id="randomMoodBtn" type="button" data-i18n="randomMood">Surprise me</button>
+      </div>
+      <div class="mood-grid" id="moodGrid"></div>
+    </section>
+
+    <section class="result-grid" id="resultPanel" aria-live="polite">
+      <article class="memory-card">
+        <div class="memory-media-wrap">
+          <img id="memoryImage" class="memory-media" alt="" />
+          <div id="imageFallback" class="image-fallback hidden">
+            <span data-i18n="photoPlaceholder">Replace this with your own photo</span>
+          </div>
+        </div>
+
+        <div class="memory-content">
+          <p class="soft-label" id="selectedMoodLabel">Memory</p>
+          <h3 id="memoryTitle">Select a mood to open a memory</h3>
+          <p id="memoryCaption">
+            Your shared moments will appear here. Replace the placeholder images in the assets/moments folder.
+          </p>
+
+          <div class="memory-controls">
+            <button class="primary-btn" id="newMemoryBtn" type="button" data-i18n="anotherMemory">Show another memory</button>
+            <button class="ghost-btn" id="resetBtn" type="button" data-i18n="reset">Start over</button>
+          </div>
+        </div>
+      </article>
+
+      <aside class="actions-card">
+        <p class="soft-label" data-i18n="actionsLabel">Possible next step</p>
+        <h3 data-i18n="actionsTitle">What would help most?</h3>
+        <p class="actions-intro" data-i18n="actionsIntro">
+          Choose anything below only if you feel comfortable. Each button prepares an option, it does not send anything automatically.
+        </p>
+
+        <div class="action-list" id="actionList"></div>
+
+        <div class="message-box hidden" id="messageBox">
+          <div>
+            <p class="message-title" data-i18n="messageTitle">Prepared message</p>
+            <p id="preparedMessage"></p>
+          </div>
+          <div class="message-actions">
+            <button class="primary-btn small" id="copyBtn" type="button" data-i18n="copyMessage">Copy</button>
+            <a class="ghost-link small" id="smsLink" href="#" data-i18n="openSms">Open SMS</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="respect-card">
+      <h2 data-i18n="respectTitle">One more option</h2>
+      <p data-i18n="respectText">
+        If you need quiet time, that is completely okay too. You do not have to reply, explain, or decide anything today.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <span data-i18n="footerText">Made to be gentle, private, and respectful.</span>
+    </footer>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
