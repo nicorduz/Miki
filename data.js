@@ -7,7 +7,7 @@ const CONTACT_PHONE = "+8107090503851";
 const COPY = {
   en: {
     eyebrow: "A quiet place for small memories",
-    title: "For when today feels like a lot",
+    title: "Miki, For when today feels like a lot",
     introLabel: "Start here",
     introTitle: "How are you feeling right now?",
     introText: "Pick a mood. The app will show one random memory and a few gentle options, only if any of them feel right.",
@@ -123,84 +123,84 @@ const MOODS = [
 const MOMENTS = [
   {
     id: "moment-01",
-    image: "assets/moments/moment-01.svg",
+    image: "assets/moments/moment-01.jpg",
     moods: ["happy", "grateful", "bored"],
     en: { title: "A day that felt easy", caption: "One of those small moments that did not need to be perfect to feel meaningful." },
     ja: { title: "自然に楽しかった日", caption: "完璧じゃなくても、なぜか心に残る小さな時間。" }
   },
   {
     id: "moment-02",
-    image: "assets/moments/moment-02.svg",
+    image: "assets/moments/moment-02.jpg",
     moods: ["sad", "lonely", "tired"],
     en: { title: "A quiet memory", caption: "A reminder that gentle days existed, and they can exist again in a different way." },
     ja: { title: "静かな思い出", caption: "やさしい日があったこと、そして違う形でもまた作れるかもしれないこと。" }
   },
   {
     id: "moment-03",
-    image: "assets/moments/moment-03.svg",
+    image: "assets/moments/moment-03.jpg",
     moods: ["hungry", "happy", "bored"],
     en: { title: "Food made the day better", caption: "Some days are improved by one good meal and a softer pace." },
     ja: { title: "ごはんで少し良くなった日", caption: "おいしいものとゆっくりした時間で、少し救われる日もある。" }
   },
   {
     id: "moment-04",
-    image: "assets/moments/moment-04.svg",
+    image: "assets/moments/moment-04.jpg",
     moods: ["angry", "confused", "stressed"],
     en: { title: "A pause before words", caption: "Some feelings need space before they can become clear." },
     ja: { title: "言葉の前の休憩", caption: "気持ちがはっきりするまで、少し時間が必要なこともある。" }
   },
   {
     id: "moment-05",
-    image: "assets/moments/moment-05.svg",
+    image: "assets/moments/moment-05.jpg",
     moods: ["tired", "stressed", "sad"],
     en: { title: "Rest is allowed", caption: "No big plan, no pressure. Just a reminder to breathe and take care of yourself." },
     ja: { title: "休んでもいい", caption: "大きな予定も、無理もなし。ただ少し深呼吸して、自分を大切にする時間。" }
   },
   {
     id: "moment-06",
-    image: "assets/moments/moment-06.svg",
+    image: "assets/moments/moment-06.jpg",
     moods: ["bored", "happy", "confused"],
     en: { title: "A tiny adventure", caption: "Even a small change of place can make the day feel lighter." },
     ja: { title: "小さな冒険", caption: "少し場所を変えるだけで、今日が軽く感じることもある。" }
   },
   {
     id: "moment-07",
-    image: "assets/moments/moment-07.svg",
+    image: "assets/moments/moment-07.jpg",
     moods: ["lonely", "sad", "grateful"],
     en: { title: "A warm ordinary moment", caption: "Not every meaningful memory is loud. Some are quiet and simple." },
     ja: { title: "あたたかい普通の時間", caption: "大切な思い出は、いつも派手とは限らない。静かでシンプルなものもある。" }
   },
   {
     id: "moment-08",
-    image: "assets/moments/moment-08.svg",
+    image: "assets/moments/moment-08.jpg",
     moods: ["hungry", "tired", "stressed"],
     en: { title: "Dinner can be a reset", caption: "A meal, a seat, and a calmer hour can sometimes change the whole mood." },
     ja: { title: "ごはんでリセット", caption: "食事と座れる場所と、少し落ち着いた時間。それだけで気分が変わることもある。" }
   },
   {
     id: "moment-09",
-    image: "assets/moments/moment-09.svg",
+    image: "assets/moments/moment-09.jpg",
     moods: ["happy", "grateful", "lonely"],
     en: { title: "Something worth smiling about", caption: "A small reminder that there were moments with real warmth." },
     ja: { title: "笑顔になれる記憶", caption: "本当にあたたかかった時間があったことを思い出すために。" }
   },
   {
     id: "moment-10",
-    image: "assets/moments/moment-10.svg",
+    image: "assets/moments/moment-10.jpg",
     moods: ["angry", "stressed", "confused"],
     en: { title: "No rush", caption: "It is okay to feel what you feel before choosing what comes next." },
     ja: { title: "急がなくていい", caption: "次を決める前に、今の気持ちをそのまま感じても大丈夫。" }
   },
   {
     id: "moment-11",
-    image: "assets/moments/moment-11.svg",
+    image: "assets/moments/moment-11.jpg",
     moods: ["bored", "happy", "hungry"],
     en: { title: "A small plan could help", caption: "Coffee, dinner, a walk, or something simple. No pressure, just an option." },
     ja: { title: "小さな予定が助けになるかも", caption: "コーヒー、夕食、散歩、何でもないこと。無理ではなく、ただの選択肢。" }
   },
   {
     id: "moment-12",
-    image: "assets/moments/moment-12.svg",
+    image: "assets/moments/moment-12.jpg",
     moods: ["tired", "lonely", "grateful"],
     en: { title: "Soft light, soft pace", caption: "A reminder that you deserve gentleness, especially on heavy days." },
     ja: { title: "やわらかい光とペース", caption: "重い日ほど、やさしさを受け取っていいということ。" }
